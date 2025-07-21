@@ -1,0 +1,18 @@
+{
+    "extends": "@tsconfig/next/tsconfig.json",
+    "compilerOptions": {
+      "strict": true,
+      "noEmit": true,
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+      "esModuleInterop": true,
+      "jsx": "preserve"
+    },
+    "include": [
+      "next-env.d.ts",
+      "**/*.ts",
+      "**/*.tsx"
+    ],
+    "exclude": ["node_modules"]
+  }

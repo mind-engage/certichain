@@ -1,0 +1,19 @@
+/* Base layer (optional Tailwind) */
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+.btn {
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.375rem;
+  background-color: #4f46e5; /* indigo‑600 */
+  color: #fff;
+  transition: background-color 0.15s ease;
+}
+.btn:hover { background-color: #4338ca; }
+.btn-primary { background-color: #2563eb; }
+.btn-primary:hover { background-color: #1d4ed8; }
+.btn-secondary { background-color: #6b7280; }
+.btn-secondary:hover { background-color: #4b5563; }

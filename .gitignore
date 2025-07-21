@@ -1,0 +1,53 @@
+# --- Node & Yarn ---
+node_modules/
+.yarn/
+.pnpm-store/
+
+# lockfiles are **kept**
+!yarn.lock
+!package-lock.json
+
+# --- Environment files ---
+.env
+.env.*.local
+
+# --- Hardhat ---
+artifacts/
+cache/
+coverage/
+# Tenderly & Foundry cache
+out/
+forge-cache/
+.tenderly/
+
+# TypeChain, Typechain‑generated folders
+typechain-types/
+
+# --- Next.js / React ---
+frontend/.next/
+frontend/out/
+frontend/node_modules/
+# --- Tailwind JIT cache ---
+frontend/.tailwind/
+
+# --- Logs ---
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- OS / Editor ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# --- Docker ---
+**/docker-data/
+
+# --- Misc build outputs ---
+dist/
+build/
+
+# --- IPFS cluster pin dirs (if checked out locally) ---
+.ipfs/
